@@ -26,8 +26,6 @@ const Navbar = () => {
     setIsModalOpen(false);
   };
 
-
-
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
