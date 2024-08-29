@@ -50,7 +50,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className={` ${darkMode ? 'bg-black text-white' : 'bg-white text-black '} ${sticky ? "shadow-lg" : ""} flex min-h-14 my-auto items-center fixed top-0 left-0 w-screen right-0 z-10`}>
+    <div className={` ${darkMode ? 'bg-black text-white' : 'bg-white text-black '} ${sticky ? "shadow-lg" : ""} flex min-h-14 my-auto items-center fixed top-0 left-0 w-screen lg:px-14 right-0 z-10`}>
       <div className='ml-4'>
         <RxHamburgerMenu className="hidden max-lg:block" onClick={toggleMenu} />
       </div>
